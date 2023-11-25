@@ -1,0 +1,35 @@
+.bannerMenu{
+    max-width: 300px;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    border-right: 1px solid black;
+}
+
+.bannerMenu .closeIcon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 34px;
+    
+}
+.bannerMenu .menuBox{
+    padding: 100px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.menuBox__item{
+    font-size: 22px;
+    border-radius: 14px;
+    padding: 16px;
+    text-decoration: none;
+    color: rgb(40, 39, 39);
+}
+.menuBox__item:hover{
+        background-color: rgb(233, 228, 228);
+}

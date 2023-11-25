@@ -1,0 +1,51 @@
+.SubBanner{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.SubBanner img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+.subBanner__title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@media (max-width:1200px) {
+   .SubBanner img{
+    width: 100px;
+    height: 100px;
+
+    }
+}
+@media (max-width:800px) {
+   .SubBanner img{
+    width:60px;
+    height: 60px;
+
+    }
+
+    .subBanner__title{
+    font-size: 18px;
+    font-weight: 600;
+}
+}
+
+@media (max-width:600px) {
+   .subBanner{
+      width: 40px;
+      height: 40px;
+   }
+
+   .subBanner__title{
+    font-size: 15px;
+    font-weight: 600;
+   }
+}

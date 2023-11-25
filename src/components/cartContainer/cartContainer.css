@@ -1,0 +1,17 @@
+.cart__topBox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    padding: 14px;
+    padding-right: 20%;
+}
+.cart__topBox .right{
+    display: flex;
+    gap: 30px;
+}
+.cartContainer{
+    width: 800px;
+    padding: 40px;
+
+}

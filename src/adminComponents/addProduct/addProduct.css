@@ -1,0 +1,83 @@
+.addProduct{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 300px;
+}
+
+.addProduct__form{
+    width: 800px;
+    border: 1px solid;
+    background-color: white;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.addProduct_inputCover{
+    display: flex;
+}
+.addProduct__inputBox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
+}
+.addProduct__inputBox input ,.addProduct__inputBox  select{
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.763);
+    width: 90%;
+}
+.addProduct__inputBox label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.addProduct__ImgBox label{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.addProduct__ImgBox .imgInpContainer{
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.649);
+    width: 120px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addProduct__ImgBox .imgInpContainer .addIcon{
+    font-size: 40px;
+}
+.addProduct__ImgBox  #imgInp{
+    display: none;
+}
+.addProduct__button{
+    padding: 12px 16px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    
+}
+.addProduct__inputBoxSize{
+    display: flex;
+    flex-direction: column;
+}
+.addProduct__inputBoxSize .checkboxes{
+    display: flex;
+}
+.addProduct__inputBoxSize label{
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+}
+.inputcheckBox__cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}

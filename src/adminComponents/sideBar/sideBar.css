@@ -1,0 +1,40 @@
+.sideBar{
+    width: 300px;
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    border-right: 2px solid;
+}
+.sideBar__header{
+    border-bottom: 2px solid rgba(0, 0, 0);
+    padding:10px 20px;
+    
+}
+.sideBar__header h1{
+    font-weight: 700;
+}
+.sideBar__links{
+    padding:  20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sideBar__link{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    align-items: center;
+    padding: 8px 12px;
+}
+.sideBar__link:hover{
+    background-color: rgba(222, 212, 212, 0.447);
+}
+.sideBar__link span{
+  font-size: 22px;
+}
+Link{
+    text-decoration: none;
+    color: black;
+}

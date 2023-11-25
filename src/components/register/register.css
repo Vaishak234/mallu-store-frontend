@@ -1,0 +1,114 @@
+.register__container{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: rgb(248, 244, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 12px;
+     background-color: white;
+     text-align: center;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     max-width: 500px;
+     width: 90%;
+}
+.register__title{
+    margin-bottom: 28px;
+    color: rgb(76, 74, 74);
+}
+.register__inputBox{
+    width: 80%;
+    background-color: rgb(242, 236, 236);
+    margin: 10px 0px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.register__inputBox input{
+    border: none;
+    background-color: transparent;
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    outline: none;
+   
+}
+
+.register__inputBoxBtn {
+    width: 80%;
+}
+
+.register__inputBoxBtn button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+.register__inputBoxGoogle {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    margin: 18px;
+    align-items: center;
+    width: 80%;
+    padding: 8px;
+    gap: 10px;
+    border-radius: 18px;
+
+}
+.register__inputBoxGoogle img{
+    width: 30px;
+}
+.register__inputBoxGoogle span{
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 500px){
+
+  .register{
+     width: 100%;
+}
+.register__title{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.register__inputBox{
+    width: 90%;
+    padding: 6px;
+   
+
+}
+
+.register__inputBox input{
+  
+    width: 100%;
+   
+}
+.register__inputBoxGoogle img{
+    width: 24px;
+}
+.register__inputBoxBtn {
+    width: 90%;
+}
+
+.register__inputBoxBtn button{
+   
+    font-size: 16px;
+    
+}
+
+}

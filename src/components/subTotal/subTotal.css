@@ -1,0 +1,24 @@
+.subTotal{
+    width: 400px;
+    padding: 16px;
+    padding-top: 80px;
+}
+.subTotal__total{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 2px;
+}
+ .specialSubTotal{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.subtotal__checkoutBtn{
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,147 @@
+  
+  .checkout{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    padding-top: 50px;
+    align-items: center;
+  }
+  .section__card{
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    padding: 15px 20px 30px 20px;
+    border: 1px solid;
+  }
+  .section__card .title{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .section__card p{
+     font-size: 14.5px;
+     margin-bottom: 0;
+  }
+  
+  .editbutton{
+    background-color: transparent;
+    color: black;
+    border: none;
+    margin-bottom: -13px;
+    width: 20px;
+    margin-top: 20px;
+    margin-left: calc(50% - 20px);
+    font-weight: 500;
+    font-size: 16px;
+    
+ }
+ .editbutton:hover {
+    text-decoration: underline;
+ }
+ 
+   
+ .checkout__button{
+        background-color: rgba(0, 0, 0);
+        width: 100%;
+        max-width: 600px;
+        border: none;
+        font-size: 18px;
+        color: white;
+        padding: 8px 18px;
+        margin-bottom: 20px;
+}
+   
+.checkout__totalPrice{
+  text-align: start;
+  width: 600px;
+  max-width: 100%;
+}
+
+.address__card{
+    max-width: 100%;
+    width: 600px;
+    margin-bottom: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 15px;
+    border: 1px solid;
+  }
+  .address__title{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+
+  }
+  .address__card .rows{
+    display: flex;
+     gap: 40px;
+     width: 100%;
+     padding: 0px 10%;
+    
+ }
+ .address__card .inp__rows{
+    display: flex;
+    flex-direction: column;
+    width: 47.6%;
+    margin-bottom: 15px;
+   
+ }
+ .address__card .address__btn{
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  font-size: 16px;
+   align-self: center;
+  margin-top: 10px;
+  width: 80%;
+  margin-left: 50px;
+ }
+ .largeInp{
+    width: 100%;
+ }
+ .inp__rows input, select{
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    outline: none;
+    height: 40px;
+    padding: 6px 7px;
+ }
+ 
+ label{
+    margin-bottom: 5px;
+ }
+
+@media (max-width:600px){
+  .checkout{
+     padding: 40px 20px;
+  }
+  .section__card .title{
+    font-size: 20px;
+  }
+  .section__card p{
+     font-size: 12.5px;
+     margin-bottom: 0;
+  }
+  .editbutton{
+    font-size: 14px;
+  }
+  
+  .address__card .rows{
+     flex-direction: column;
+     gap: 20px;
+  }
+  .address__card .inp__rows{
+    width: 100%;
+    margin-bottom: 15px;
+    
+ }
+ .address__card .address__btn{
+  width: 80%;
+    margin-left: 0px;
+
+ 
+ }
+}

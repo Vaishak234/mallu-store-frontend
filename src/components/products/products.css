@@ -1,0 +1,21 @@
+.products{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+   
+}
+.products__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 23px;
+}
+
+@media (max-width:500px) {
+    
+}
